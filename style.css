@@ -1,0 +1,116 @@
+:root{
+    --main-clr : #344054;
+    --secondary-clr:#667085;
+    --border-clr: #cbcce8;
+    --main-btn-clr:#5429ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header > h1{
+    font-size: 34px;
+    margin-bottom: 7px;
+    color: var(--main-clr);
+}
+header > p{
+    color: var(--secondary-clr);
+}
+
+#wrapper{
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    width: 28%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.input-container > label{
+    color: var(--main-clr);
+    font-size: 14px;
+}
+.input{
+    border: 1px solid var(--border-clr);
+    border-radius: 5px;
+    padding:.3rem;
+    height:2.5rem;
+}
+#options-container{
+    display: flex;
+    justify-content: space-between;
+}
+#cache-container > label{
+    color: var(--main-clr);
+    font-size: 14px;
+}
+
+#forgot-pass-container > a{
+    text-decoration: none;
+    color: var(--main-btn-clr);
+    font-size: 14px;
+}
+
+.btn-container > div{
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+#signin-btn{
+    background-color: var(--main-btn-clr);
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#google-btn{
+    background-color: #fff;
+    border: 1px solid var(--border-clr);
+    color: var(--secondary-clr);
+    font-weight: bold;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.signup-section{
+    width: 100%;
+    text-align: center;
+}
+
+.signup-section > a{
+    text-decoration: none;
+}
+
+img{
+    width: 590px;
+    height: auto;
+    border-radius: 25px;
+    padding-left: 0%;
+    object-fit: contain;
+}   
+
